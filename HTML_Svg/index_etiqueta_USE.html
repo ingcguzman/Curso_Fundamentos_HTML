@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=width-device user-scalable=no">
+    <title></title>
+  </head>
+  <body>
+    <svg width="1200" height="1200">
+      <g id="agrupacion1" fill="red" stroke="blue" stroke-width="4">
+        <rect x="10" y="10" width="120" height="120"/>
+        <circle cx="200" cy="100" r="50"/>
+      </g>
+      <title>Ejecicio de etiquetas SVC</title>
+      <desc>
+        Gradiente básico como ejemplo
+      </desc>
+      <defs>
+        <lineargradient id="Gradiente1">
+          <stop offset="20%" stop-color="#39f"/>
+          <stop offset="90%" stop-color="#f3f"/>
+        </lineargradient>
+        <rect id="Rectangulo" width="60" height="40" fill="red" stroke="yellow" stroke-width="4">
+      </defs>
+      <rect x="300" y="100" width="200" height="100" fill="url(#Gradiente1)"/>
+      <use x="200" y="400" xlink:href="#Rectangulo"/>
+      <use x="400" y="200" xlink:href="#Rectangulo"/>
+    </svg>
+  </body>
+</html>

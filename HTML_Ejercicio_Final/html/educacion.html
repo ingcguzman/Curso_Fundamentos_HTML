@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=width-device user-scalable=no">
+    <title>Educación</title>
+  </head>
+  <body>
+    <header>
+      <svg>
+        <image xlink:href="../img/Logo_Carlos_Guzman.svg" width="400px" height="400px"></image>
+      </svg>
+      <h1>Hoja de Vida</h1>
+      <p></p>
+      <h2>Carlos Augusto Guzmán Segura</h2>
+      <h3>Chocontá, Abril 18 de 1964</h3>
+    </header>
+  <!-- Vinculos para las paginas auxiliares -->
+    <a href="../index.html">Inicio</a><br/>
+    <a href="../html/educacion.html">Educación</a><br/>
+    <a href="../html/experiencia.html">Experiencia</a>
+  <!--Incluir información de Educación-->
+    <h2>Educación</h2>
+    <table border="1">
+      <tr>
+        <th>Año</th>
+        <th>Institución</th>
+        <th>Lugar</th>
+        <th>¿Culminó?</th>
+      </tr>
+      <tr>
+        <td>1980</td>
+        <td>Simón Bolivar</td>
+        <td>Ubaté</td>
+        <td>Si</td>
+      </tr>
+      <tr>
+        <td>1987</td>
+        <td>Universidad INCCA de Colombia</td>
+        <td>Bogotá</td>
+        <td>Si</td>
+      </tr>
+      <tr>
+        <td>1994</td>
+        <td>Universidad del Rosario</td>
+        <td>Bogotá</td>
+        <td>Si</td>
+      </tr>
+    </table>
+    <!-- Formulario para Agregar estudios-->
+    <form>
+      <h2>Agregar Estudios</h2>
+      <fieldset>
+        <label for="Fecha">Fecha</label>
+        <select>
+          <option id="Fecha">2010</option>
+          <option id="Fecha">2011</option>
+          <option id="Fecha">2012</option>
+          <option id="Fecha">2013</option>
+          <option id="Fecha">2014</option>
+          <option id="Fecha">2015</option>
+          <option id="Fecha">2016</option>
+          <option id="Fecha">2017</option>
+          <option id="Fecha">2018</option>
+        </select>
+        <p></p>
+        <label for="Institucion">Institución</label>
+        <input type="text" name="Institución" placeholder="Ej. Colegio JFK" id="Institucion" size="30" maxlenght ="30" required>
+        <p></p>
+        <label for="Lugar">Lugar</label>
+        <textarea name="Lugar" rows="8" cols="40" required></textarea> <p></p>
+        <label for="Culmino">Culmino?</label>
+        <input type="radio" id="Si" name="culmino">
+        <label for="Si">Si</label>
+        <input type="radio" id ="No" name="culmino">
+        <label for="No">No</label><p></p>
+        <input type="submit"  value="Enviar">
+      </fieldset>
+      <footer>
+        <p>­­☺ Derechos Reservados 2018</p>
+        <ul>
+           <li>Email: <a href="mailto:ingcguzman@hotmail.com">ingcguzman@hotmail.com</a></li>
+           <li>Celular: 311 2311159</li>
+         </ul>
+      </footer>
+    </form>
+  </body>
+</html>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<factura id="4578A" Fecha="2018-01-17">
+	<cliente>
+		<nombre>Carlos A Guzman S</nombre>
+		<telefono>3112311159</telefono>
+	</cliente>
+	<articulos>
+		<articulo id="1">
+			<descripcion>Articulo 1</descripcion>
+			<precio-unitario>25.52</precio-unitario>
+			<precio-final>45.30</precio-final>
+			<cantidad>100</cantidad>
+		</articulo>
+		<articulo id="2"
+			<descripcion>Articulo 2</descripcion>
+			<precio-unitario>26.52</precio-unitario>
+			<precio-final>90.30</precio-final>
+			<cantidad>200</cantidad>
+		</articulo>
+	</articulos>
+	<precio-total>100.78</precio-total>
+</factura>

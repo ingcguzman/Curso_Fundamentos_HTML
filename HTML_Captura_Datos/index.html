@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Registro</title>
+  </head>
+  <body>
+    <form>
+      <fieldset>
+        <h1>Registro en nuestra tienda</h1>
+        <p>
+          <label for="nombre-usuario">Nombre de Usuario</label> <br/>
+          <input type="text" placeholder="Ej. Luis" name="Nombre-usuario" id="nombre-usuario" required>
+        </p>
+        <p>
+          <label for="email">Email</label> <br/>
+          <input type="email" placeholder="Ej.luis@hotmail.com" name="email" id="email" required autofocus>
+        </p>
+        <p>
+          <label for="edad">Edad</label> <br/>
+          <input type="number" placeholder="Ej. 21" name="edad" id="edad" required>
+        </p>
+        <p>
+          <label for="fecha_nac">Fecha de Nacimiento</label>
+          <input type="date" id="fecha_nac" name="fecha" required><br/>
+        </p>
+        <p>
+          <label>Genero</label><br/>
+          <input type="radio" id="masculino" name="genero">
+          <label for="masculino">Masculino</label> <br/>
+          <input type="radio" id="femenino" name="genero">
+          <label for="femenino">Femenino</label><br/>
+        </p>
+        <label for="recomendado">Recomendado por</label>
+        <select>
+          <option id="recomendado">Google</option>
+          <option id="recomendado">Amigo</option>
+          <option id="recomendado">Redes Sociales</option>
+        </select>
+        <br/><br/>
+        <label for="comentarios">Comentarios</label><br/>
+        <textarea name="comentarios" rows="8" cols="80" id="comentarios"></textarea><br/>
+        <input type="checkbox" name="acepta" id="acepta">
+        <label for="acepta">Acepto terminos y condiciones</label><br/><br/>
+        <input type="submit" value="Registrar">
+      </fieldset>
+    </form>
+  </body>
+</html>

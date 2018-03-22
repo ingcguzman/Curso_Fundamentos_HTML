@@ -1,0 +1,14 @@
+<persona>
+	<Datos_Empleado>
+		<Nombres>Carlos Augusto</Nombres>
+		<Apellidos>Guzman Segura</Apellidos>
+		<Edad>53</Edad>
+		<Correo>ingcguzman@hotmail.com</Correo>
+	</Datos_Empleado>
+	<Datos_Empleado>
+		<Nombres>Elizabeht Elvira</Nombres>
+		<Apellidos>Chaves Benavide</Apellidos>
+		<Edad>54</Edad>
+		<Correo>ingechaves@hotmail.com</Correo>
+	</Datos_Empleado>	
+</persona>
